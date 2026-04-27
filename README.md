@@ -98,19 +98,28 @@ Infomap App repose sur des technologies modernes et robustes :
 - Laragon / VS Code (environnement de développement)
 
 ---
+
+## 📌 Statut du projet
+
+Ce dépôt constitue une **version publique de présentation** de la plateforme Infomap App.
+
+Il sert uniquement à présenter :
+- la vision du projet  
+- la documentation générale  
+- l’architecture du système  
+- les fonctionnalités principales  
+
+👉 Le code source complet de la plateforme est **privé** et sécurisé dans un autre dépôt afin de protéger la propriété intellectuelle et l’intégrité du système.
+
+---
+
 ## 🔐 Sécurité du système
 
 La sécurité est un élément fondamental de la plateforme Infomap App.
 
-Le système intègre plusieurs mécanismes avancés permettant de garantir la protection des données et des utilisateurs :
+Le système intègre plusieurs mécanismes avancés permettant de garantir la protection des données et des utilisateurs. Il repose notamment sur le hashage sécurisé des mots de passe, la protection contre les attaques CSRF, l’utilisation de middleware d’authentification Laravel, ainsi qu’un système de gestion des rôles et des permissions permettant de contrôler précisément les accès aux fonctionnalités.
 
-- Hashage sécurisé des mots de passe  
-- Protection contre les attaques CSRF  
-- Middleware d’authentification Laravel  
-- Gestion des autorisations par rôles  
-- Accès restreint aux données sensibles  
-
-Ces mesures assurent un environnement fiable, stable et sécurisé pour tous les utilisateurs de la plateforme.
+L’accès aux données sensibles est strictement limité afin d’assurer un environnement fiable, stable et sécurisé pour tous les utilisateurs de la plateforme.
 
 ---
 
@@ -118,28 +127,19 @@ Ces mesures assurent un environnement fiable, stable et sécurisé pour tous les
 
 Infomap App est une plateforme évolutive conçue pour s’adapter aux besoins futurs du marché numérique.
 
-Elle pourra intégrer progressivement les technologies suivantes :
+Elle pourra intégrer progressivement des technologies avancées telles que l’intelligence artificielle pour l’automatisation des processus, les applications mobiles Android et iOS, les systèmes de paiement avancés via API fintech, ainsi que des tableaux de bord analytiques intelligents.
 
-- Intelligence artificielle pour l’automatisation des processus  
-- Applications mobiles (Android / iOS)  
-- Systèmes de paiement avancés (API fintech)  
-- Tableau de bord analytique avancé  
-- Infrastructure cloud et microservices  
-
-Cette vision permet d’assurer la pérennité et l’évolution continue du système.
+À long terme, l’infrastructure pourra évoluer vers un environnement cloud basé sur des microservices afin d’assurer une meilleure performance, scalabilité et disponibilité.
 
 ---
 
 ## 🤝 Collaboration et partenariats
 
-Ce projet est ouvert à la collaboration avec différents acteurs du secteur numérique :
+Ce projet est ouvert à la collaboration avec différents acteurs du secteur numérique.
 
-- Développeurs Laravel et PHP  
-- Entreprises technologiques  
-- Institutions publiques et privées  
-- Partenaires en transformation digitale  
+Nous travaillons avec des développeurs Laravel et PHP, des entreprises technologiques, des institutions publiques et privées, ainsi que des partenaires spécialisés dans la transformation digitale.
 
-Nous croyons fortement à la collaboration pour construire des solutions numériques durables, innovantes et adaptées aux réalités africaines.
+L’objectif est de favoriser la co-création de solutions numériques durables, innovantes et adaptées aux réalités africaines et internationales.
 
 ---
 
@@ -147,15 +147,9 @@ Nous croyons fortement à la collaboration pour construire des solutions numéri
 
 Infomap Services est une entreprise spécialisée dans le développement de solutions numériques en République Démocratique du Congo.
 
-Nous accompagnons les entreprises et institutions dans leur transformation digitale à travers des solutions modernes, fiables et adaptées.
+Nous accompagnons les entreprises, institutions et entrepreneurs dans leur transformation digitale grâce à des solutions modernes, fiables et adaptées à leurs besoins.
 
-### Nos domaines d’expertise :
-
-- Développement web et mobile  
-- Systèmes de gestion (ERP / SaaS)  
-- Solutions de paiement numérique  
-- Cybersécurité et protection des données  
-- Formation et accompagnement digital  
+Nos domaines d’expertise couvrent le développement web et mobile, les systèmes de gestion de type ERP et SaaS, les solutions de paiement numérique, la cybersécurité ainsi que la formation et l’accompagnement digital.
 
 ---
 
