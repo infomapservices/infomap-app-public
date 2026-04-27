@@ -1,9 +1,9 @@
 # infomap-app-public
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00C2FF&center=true&vCenter=true&width=650&lines=Infomap+App;Plateforme+Laravel+Intelligente;Solution+Digitale+Entreprise;Innovation+Technologique+en+Afrique" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00C2FF&center=true&vCenter=true&width=650&lines=Infomap+App;Plateforme+Digitale+Intelligente;Solution+Digitale+Entreprise;Innovation+Technologique+en+Afrique" />
 </p>
 
-<h1 align="center">🚀 Infomap App</h1>
+<h1 align="center">Infomap App</h1>
 <h3 align="center">Solutions Digitales Innovantes pour l’Afrique</h3>
 
 <p align="center">
