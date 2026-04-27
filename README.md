@@ -98,65 +98,6 @@ Infomap App repose sur des technologies modernes et robustes :
 - Laragon / VS Code (environnement de développement)
 
 ---
-
-## 📁 Architecture du projet
-
-```text id="structure_final_001"
-app/
-├── Http/
-│   ├── Controllers/
-│   │   ├── Auth/
-│   │   ├── DashboardController.php
-│   │   ├── ServiceController.php
-│   │
-├── Models/
-│   ├── User.php
-│   ├── Service.php
-│   ├── Order.php
-
-resources/
-├── views/
-│   ├── auth/
-│   ├── dashboard/
-│   ├── services/
-│   ├── layouts/
-
-routes/
-├── web.php
-
-database/
-├── migrations/
-├── seeders/
-├── factories/
-
-public/
-├── index.php
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-
-storage/
-├── app/
-├── logs/
-├── framework/
-
-config/
-├── app.php
-├── database.php
-
-tests/
-├── Feature/
-├── Unit/
-
-.env
-artisan
-composer.json
-package.json
-README.md
----
----
-
 ## 🔐 Sécurité du système
 
 La sécurité est un élément fondamental de la plateforme Infomap App.
@@ -228,3 +169,79 @@ Pour toute information ou collaboration :
 
 ## © 2026 Infomap Services  
 Tous droits réservés.
+
+
+## 📁 Architecture du projet
+
+```text id="structure_final_001"
+infomap-app/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Auth/
+│   │   │   │   ├── LoginController.php
+│   │   │   │   ├── RegisterController.php
+│   │   │   ├── DashboardController.php
+│   │   │   ├── ServiceController.php
+│   │   │   ├── UserController.php
+│   │   │
+│   │   ├── Middleware/
+│   │
+│   ├── Models/
+│   │   ├── User.php
+│   │   ├── Service.php
+│   │   ├── Order.php
+│   │
+│   ├── Providers/
+│
+├── bootstrap/
+│
+├── config/
+│   ├── app.php
+│   ├── database.php
+│
+├── database/
+│   ├── migrations/
+│   ├── seeders/
+│   ├── factories/
+│
+├── public/
+│   ├── index.php
+│   ├── assets/
+│       ├── css/
+│       ├── js/
+│       ├── images/
+│
+├── resources/
+│   ├── views/
+│   │   ├── auth/
+│   │   │   ├── login.blade.php
+│   │   │   ├── register.blade.php
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── index.blade.php
+│   │   │
+│   │   ├── services/
+│   │   │   ├── index.blade.php
+│   │   │
+│   │   ├── layouts/
+│   │       ├── app.blade.php
+│
+├── routes/
+│   ├── web.php
+│   ├── api.php
+│
+├── storage/
+│   ├── logs/
+│   ├── app/
+│
+├── tests/
+│
+├── .env
+├── artisan
+├── composer.json
+└── README.md
+``` id="laravel_structure_002"
+README.md
+---
